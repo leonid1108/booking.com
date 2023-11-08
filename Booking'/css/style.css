@@ -1,0 +1,1125 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  padding: 8px 16px 0px 16px;
+  height: 124px;
+  background-color: #003b95;
+  flex-direction: column;
+}
+header .up__line {
+  width: 1100px;
+  margin: 0px auto;
+  padding: 4px 16px 8px 16px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .up__line .a__booking {
+  width: 324px;
+  padding: 8px 16px 8px 0px;
+}
+header .up__line .a__booking a {
+  color: #fff;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+header .up__line .btn {
+  display: flex;
+  align-items: center;
+}
+header .up__line .btn .header__rub {
+  margin: 8px 8px 0px 0px;
+  width: 55px;
+  height: 48px;
+}
+header .up__line .btn .header__rub p {
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+header .up__line .btn .radius:hover {
+  background-color: #1a4fa0;
+}
+header .up__line .btn .header__rus {
+  margin: 8px 8px 0px 0px;
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+header .up__line .btn .header__rus img {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+}
+header .up__line .btn .header__question {
+  margin: 8px 8px 0px 0px;
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+header .up__line .btn .header__question img {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+}
+header .up__line .btn .s {
+  background-color: #003b95;
+}
+header .up__line .btn .header__reg_obj {
+  font-size: 16px;
+  white-space: nowrap;
+  font-weight: medium;
+  text-align: center;
+  margin: 8px 8px 0px 0px;
+  width: 233px;
+  height: 32px;
+  padding: 8px 12px;
+  color: #fff;
+}
+header .up__line .btn .radius {
+  border-radius: 4px;
+}
+header .up__line .btn .header__reg {
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: medium;
+  text-align: center;
+  margin: 8px 8px 0px 0px;
+  width: 133px;
+  height: 28px;
+}
+header .up__line .btn .header__log {
+  font-size: 14px;
+  font-weight: medium;
+  text-align: center;
+  margin: 8px 8px 0px 0px;
+  width: 115px;
+  height: 28px;
+  font-size: 15px;
+}
+header .up__line .btn .b {
+  background-color: #fff;
+  padding: 4px 12px;
+  color: #006ce4;
+  border-radius: 4px;
+  border: #006ce4 1px solid;
+}
+header .down__line {
+  width: 1100px;
+  margin: 0px auto;
+  margin-top: 5px;
+}
+header .down__line ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .down__line ul li {
+  border-radius: 100px;
+  margin: 0px 0px 0px 4px;
+}
+header .down__line ul li:hover {
+  background-color: #1a4fa0;
+}
+header .down__line ul a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  padding: 11px 16px;
+}
+header .down__line ul a img {
+  width: 22px;
+  height: 22px;
+  margin: 0px 8px 0px 0px;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: 0px auto;
+}
+
+.main .back {
+  height: 240px;
+  background-color: #003b95;
+  position: relative;
+}
+.main .back .first__block {
+  display: flex;
+  flex-direction: column;
+  width: 1100px;
+  margin: 0px auto;
+}
+.main .back .first__block .text__block h1 {
+  margin: 50px 0px 0px 0px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+}
+.main .back .first__block .text__block p {
+  margin: 15px 0px 35px 0px;
+  color: #fff;
+  font-size: 24px;
+}
+.main .back .first__block .yellow__background {
+  position: absolute;
+  top: 205px;
+  width: 1100px;
+  height: 60px;
+  background-color: #ffb700;
+  border-radius: 5px;
+}
+.main .back .first__block .date__block {
+  position: absolute;
+  top: 210px;
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+}
+.main .back .first__block .date__block a {
+  position: relative;
+  border-radius: 4px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 0px 2px;
+  background-color: #fff;
+  height: 50.5px;
+  border: 1px #ffb700 solid;
+}
+.main .back .first__block .date__block a span {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.main .back .first__block .date__block a span input {
+  width: 318px;
+  height: 25px;
+  border: none;
+  font-size: 16px;
+  padding: 5px 5px 5px 40px;
+  font-weight: 14px;
+  border: 1px #fff solid;
+  border-radius: 5px;
+}
+.main .back .first__block .date__block a span input:focus {
+  outline: 2px #006ce4 solid;
+}
+.main .back .first__block .date__block a span img {
+  position: absolute;
+  left: 15px;
+}
+.main .back .first__block .date__block a span p {
+  padding: 0px 0px 0px 40px;
+}
+.main .back .first__block .date__block a p {
+  color: #000;
+}
+.main .back .first__block .date__block a b {
+  color: #fff;
+  font-weight: bold;
+}
+.main .back .first__block .date__block a:hover {
+  border: 1px #f56700 solid;
+}
+.main .back .first__block .date__block a:last-child {
+  flex-grow: 0.4;
+  background-color: #006ce4;
+  justify-content: center;
+  margin: 0px 2px 0px 2px;
+  width: 105px;
+}
+.main .back .first__block .date__block a:last-child:hover {
+  background-color: #003b95;
+}
+.main .back .first__block .date__block img {
+  margin: 0px 10px 0px 0px;
+  width: 24px;
+  height: 24px;
+}
+.main .back .first__block .label__block {
+  display: flex;
+  position: absolute;
+  top: 280px;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 8px 0px 0px;
+  cursor: pointer;
+}
+.main .back .first__block .label__block input {
+  margin: 0px 8px 0px 0px;
+  width: 16px;
+  height: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.main .back .first__block .label__block label {
+  cursor: pointer;
+}
+.main .special__offers {
+  margin: 120px 0px 60px 0px;
+}
+.main .special__offers h3 {
+  margin: 0px 0px 15px 0px;
+}
+.main .special__offers p {
+  margin: 0px 0px 10px 0px;
+  color: #706f70;
+}
+.main .special__offers .cards {
+  display: flex;
+  flex-direction: row;
+}
+.main .special__offers .cards .first__card {
+  margin: 0px 16px 0px 0px;
+  width: 542px;
+  height: 208px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: -7px 8px 9px -12px #000000;
+  border-radius: 10px;
+}
+.main .special__offers .cards .first__card .span__text {
+  padding: 16px;
+}
+.main .special__offers .cards .first__card span img {
+  width: 180px;
+  height: 208px;
+  border-radius: 0px 10px 10px 0px;
+}
+.main .special__offers .cards .first__card span p {
+  line-height: 25px;
+  margin: 0px 0px 20px 0px;
+}
+.main .special__offers .cards .first__card span h4 {
+  margin: 0px 0px 2px 0px;
+  line-height: 25px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.main .special__offers .cards .first__card span a {
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #006ce4;
+  width: 100px;
+  height: 36px;
+  font-size: 14px;
+}
+.main .special__offers .cards .first__card span a:hover {
+  background-color: #003b95;
+}
+.main .special__offers .cards .second__card {
+  width: 542px;
+  background-image: url("../src/group.jpeg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.main .special__offers .cards .second__card span {
+  padding: 20px 16px 16px 16px;
+}
+.main .special__offers .cards .second__card span h4 {
+  color: #fff;
+  margin: 0px 0px 4px 0px;
+  line-height: 25px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.main .special__offers .cards .second__card span p {
+  line-height: 25px;
+  margin: 0px 0px 24px 0px;
+  color: #fff;
+}
+.main .special__offers .cards .second__card span a {
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #006ce4;
+  width: 100px;
+  height: 36px;
+  font-size: 14px;
+}
+.main .special__offers .cards .second__card span a:hover {
+  background-color: #003b95;
+}
+.main .popular__destinations h3 {
+  margin: 0px 0px 15px 0px;
+}
+.main .popular__destinations p {
+  margin: 0px 0px 15px 0px;
+  color: #706f70;
+}
+.main .popular__destinations .cards__country {
+  display: flex;
+  flex-direction: column;
+}
+.main .popular__destinations .cards__country .first__line {
+  display: flex;
+  flex-direction: row;
+}
+.main .popular__destinations .cards__country .first__line h4 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 8px 8px 0px 0px;
+}
+.main .popular__destinations .cards__country .first__line img {
+  width: 24px;
+  height: 24px;
+  margin: 8px 8px 0px 0px;
+}
+.main .popular__destinations .cards__country .first__line .card_f {
+  padding: 24px 16px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px;
+  box-shadow: 0px 33px 60px -25px #000000 inset;
+  width: 510px;
+  height: 222px;
+  display: flex;
+  flex-direction: row;
+}
+.main .popular__destinations .cards__country .first__line .card_f:hover {
+  box-shadow: 0px 33px 90px -25px #000000 inset;
+}
+.main .popular__destinations .cards__country .first__line .stambul__card {
+  background-image: url("../src/stambul_back.jpg");
+  margin: 0px 16px 0px 0px;
+}
+.main .popular__destinations .cards__country .first__line .dubai__card {
+  background-image: url("../src/dubai_back.jpg");
+}
+.main .popular__destinations .cards__country .second__line {
+  display: flex;
+  flex-direction: row;
+}
+.main .popular__destinations .cards__country .second__line h4 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 8px 8px 0px 0px;
+}
+.main .popular__destinations .cards__country .second__line img {
+  width: 24px;
+  height: 24px;
+  margin: 8px 8px 0px 0px;
+}
+.main .popular__destinations .cards__country .second__line .card_s {
+  padding: 24px 16px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px;
+  box-shadow: 0px 33px 60px -25px #000000 inset;
+  width: 354px;
+  height: 265px;
+  display: flex;
+  flex-direction: row;
+}
+.main .popular__destinations .cards__country .second__line .card_s:hover {
+  box-shadow: 0px 33px 90px -25px #000000 inset;
+}
+.main .popular__destinations .cards__country .second__line .erevan__card {
+  background-image: url("../src/erevan_back.jpg");
+  margin: 16px 16px 16px 0px;
+}
+.main .popular__destinations .cards__country .second__line .tbilisi__card {
+  background-image: url("../src/tbilisi_back.jpg");
+  margin: 16px 16px 16px 0px;
+}
+.main .popular__destinations .cards__country .second__line .rim__card {
+  background-image: url("../src/rim_back.jpg");
+  margin: 16px 0px 16px 0px;
+}
+.main .slider__turkey {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 30px 0px;
+  overflow: hidden;
+}
+.main .slider__turkey .span__turkey h3 {
+  margin: 10px 0px 15px 0px;
+}
+.main .slider__turkey .span__turkey p {
+  margin: 0px 0px 15px 0px;
+  color: #706f70;
+}
+.main .slider__turkey .span__turkey__card {
+  position: relative;
+}
+.main .slider__turkey .span__turkey__card ul {
+  display: flex;
+  flex-direction: row;
+}
+.main .slider__turkey .span__turkey__card ul li {
+  margin: 0px 16px 0px 0px;
+}
+.main .slider__turkey .span__turkey__card ul li a {
+  color: #000;
+}
+.main .slider__turkey .span__turkey__card ul li a img {
+  width: 170px;
+  height: 136px;
+  border-radius: 10px;
+  margin: 0px 0px 7px 0px;
+}
+.main .slider__turkey .span__turkey__card ul li a h4 {
+  font-weight: bold;
+  margin: 0px 0px 7px 0px;
+}
+.main .slider__turkey .span__turkey__card ul li a p {
+  color: #706f70;
+  font-size: 14px;
+  line-height: 20px;
+}
+.main .slider__turkey .span__turkey__card div {
+  position: absolute;
+  top: 45px;
+  left: -16px;
+  width: 1132px;
+}
+.main .slider__turkey .span__turkey__card div button {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.main .slider__turkey .span__turkey__card div button img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 16px;
+  height: 16px;
+}
+.main .slider__turkey .span__turkey__card div button:first-child {
+  margin: 0px 1056px 0px 0px;
+}
+.main .search__placement {
+  position: relative;
+  overflow: hidden;
+  margin: 0px 0px 45px 0px;
+}
+.main .search__placement .cards__placement ul {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0px 0px 0px;
+}
+.main .search__placement .cards__placement ul li {
+  margin: 0px 16px 0px 0px;
+}
+.main .search__placement .cards__placement ul li a {
+  color: #000;
+  font-weight: bold;
+}
+.main .search__placement .cards__placement ul li a img {
+  border-radius: 10px;
+  margin: 0px 0px 5px 0px;
+}
+.main .search__placement .cards__placement div {
+  position: absolute;
+  top: 126px;
+  left: -16px;
+  width: 1132px;
+}
+.main .search__placement .cards__placement div button {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.main .search__placement .cards__placement div button img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 16px;
+  height: 16px;
+}
+.main .search__placement .cards__placement div button:first-child {
+  margin: 0px 1056px 0px 0px;
+}
+.main .card {
+  margin: 0px 0px 40px 0px;
+}
+.main .card span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 0px 20px 0px;
+}
+.main .card span a {
+  color: #006ce8;
+  font-size: 15px;
+  padding: 8px 16px;
+  border-radius: 3px;
+}
+.main .card span a:hover {
+  background-color: #f0f6fd;
+}
+.main .card .cards__houses__like ul {
+  display: flex;
+  flex-direction: row;
+}
+.main .card .cards__houses__like ul li {
+  box-shadow: 0px 3px 12px -7px #000000;
+  margin: 0px 16px 0px 0px;
+  border-radius: 10px;
+  width: 263px;
+  height: 366px;
+}
+.main .card .cards__houses__like ul li a img {
+  width: 263px;
+  height: 210px;
+  border-radius: 10px 10px 0px 0px;
+}
+.main .card .cards__houses__like ul li a span {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 15px 0px 5px 10px;
+}
+.main .card .cards__houses__like ul li a span h4 {
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0px 0px 7px 0px;
+}
+.main .card .cards__houses__like ul li a span p {
+  color: #474747;
+  font-size: 12px;
+  margin: 0px 0px 7px 0px;
+}
+.main .card .cards__houses__like ul li a span div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main .card .cards__houses__like ul li a span div button {
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  color: #fff;
+  background-color: #003b95;
+  border-radius: 5px 5px 5px 0px;
+  font-size: 12px;
+  margin: 0px 7px 0px 0px;
+}
+.main .card .cards__houses__like ul li a span div p {
+  margin: 0px;
+}
+.main .card .cards__houses__like ul li a .card__price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 45px 0px 0px 155px;
+}
+.main .card .cards__houses__like ul li a .card__price p:first-child {
+  color: #474747;
+  font-size: 12px;
+  margin: 0px 3px 0px 0px;
+  font-weight: normal;
+}
+.main .card .cards__houses__like ul li a .card__price p {
+  color: #000;
+  font-weight: bold;
+}
+.main .unique__home span {
+  display: block;
+}
+.main .unique__home span h3 {
+  margin: 10px 0px 15px 0px;
+}
+.main .unique__home span p {
+  margin: 0px 0px 15px 0px;
+  color: #706f70;
+}
+.main .unique__home .cards__unique__home ul {
+  display: flex;
+  flex-direction: row;
+}
+.main .unique__home .cards__unique__home ul li {
+  box-shadow: 0px 3px 12px -7px #000000;
+  margin: 0px 16px 0px 0px;
+  border-radius: 10px;
+  width: 263px;
+  height: 324px;
+}
+.main .unique__home .cards__unique__home ul li a img {
+  width: 263px;
+  height: 210px;
+  border-radius: 10px 10px 0px 0px;
+}
+.main .unique__home .cards__unique__home ul li a span {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 15px 0px 5px 10px;
+}
+.main .unique__home .cards__unique__home ul li a span h4 {
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0px 0px 7px 0px;
+}
+.main .unique__home .cards__unique__home ul li a span p {
+  color: #474747;
+  font-size: 12px;
+  margin: 0px 0px 7px 0px;
+}
+.main .unique__home .cards__unique__home ul li a span div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main .unique__home .cards__unique__home ul li a span div button {
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  color: #fff;
+  background-color: #003b95;
+  border-radius: 5px 5px 5px 0px;
+  font-size: 12px;
+  margin: 0px 7px 0px 0px;
+}
+.main .unique__home .cards__unique__home ul li a span div p {
+  margin: 0px;
+}
+.main .unique__home .cards__unique__home ul li a .card__price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px 0px 0px 155px;
+}
+.main .unique__home .cards__unique__home ul li a .card__price p:first-child {
+  color: #474747;
+  font-size: 12px;
+  margin: 0px 3px 0px 0px;
+  font-weight: normal;
+}
+.main .unique__home .cards__unique__home ul li a .card__price p {
+  color: #000;
+  font-weight: bold;
+}
+.main .genius__block {
+  border: #e7e7e7 1px solid;
+  border-radius: 5px;
+  height: 266px;
+  margin: 0px 0px 20px 0px;
+}
+.main .genius__block .container {
+  display: flex;
+  flex-direction: row;
+  padding: 24px;
+}
+.main .genius__block img {
+  width: 160px;
+  height: 160px;
+  margin: 0px 10px 0px 0px;
+}
+.main .genius__block span h3 {
+  margin: 10px 0px 15px 0px;
+  line-height: 35px;
+}
+.main .genius__block span p {
+  margin: 0px 0px 25px 0px;
+  line-height: 25px;
+  color: #706f70;
+}
+.main .genius__block span a {
+  width: 130px;
+  height: 36px;
+  margin: 0px 5px 0px 0px;
+  padding: 10px 12px;
+  border: 1px #fff solid;
+  color: #006ce4;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.main .genius__block span a:hover {
+  background-color: #f0f6fd;
+  border: 1px #006ce4 solid;
+}
+.main .chair__cat {
+  border: #e7e7e7 1px solid;
+  border-radius: 5px;
+  height: 288px;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  overflow: hidden;
+  justify-content: space-around;
+  position: relative;
+}
+.main .chair__cat .yellow__circle div {
+  position: absolute;
+  top: 165px;
+  left: -15px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #ffb700;
+}
+.main .chair__cat .blue__rectangle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #006ce4;
+  padding: 0px 50px 0px 50px;
+  margin: -100px 0px -100px 80px;
+  border-radius: 50%;
+  min-width: 400px;
+}
+.main .chair__cat .blue__rectangle h4 {
+  margin: 0px 0px 15px 50px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 24px;
+  line-height: 30px;
+}
+.main .chair__cat .blue__rectangle a {
+  margin: 0px 0px 0px 50px;
+  color: #fff;
+  padding: 4px 12px;
+  border: 1px #fff solid;
+  color: #006ce4;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 280px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+}
+.main .chair__cat .blue__rectangle a:hover {
+  background-color: #f0f6fd;
+}
+.main .chair__cat img {
+  margin: 20px 0px 0px 0px;
+  max-width: 360px;
+  max-height: 237px;
+}
+.main .favorite__destinations h3 {
+  margin: 30px 0px 25px 0px;
+}
+.main .favorite__destinations span a {
+  color: #006ce4;
+  border: 1px #fff solid;
+  color: #006ce4;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 11px 15px;
+  margin: 0px 10px 0px 0px;
+}
+.main .favorite__destinations span a:hover {
+  background-color: #f0f6fd;
+  border: 1px #006ce4 solid;
+}
+.main .favorite__destinations span a:active {
+  background-color: #f0f6fd;
+  border: 1px #006ce4 solid;
+  box-shadow: 0px 0px 5px 0px #006ce4;
+}
+.main .favorite__destinations div {
+  width: 1100px;
+  margin: 30px 0px 40px 0px;
+}
+.main .favorite__destinations div ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.main .favorite__destinations div ul li {
+  width: 220px;
+  margin: 16px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.main .favorite__destinations div ul li a {
+  color: #1a1a1a;
+  font-weight: bold;
+  font-size: 14px;
+}
+.main .favorite__destinations div ul li a:hover {
+  text-decoration: underline;
+}
+.main .favorite__destinations div ul li p {
+  margin: 7px 0px 0px 0px;
+  font-size: 13px;
+}
+
+.input__bottom {
+  background-color: #00224f;
+  text-align: center;
+  padding: 50px 0px;
+}
+.input__bottom h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0px 0px 10px 0px;
+}
+.input__bottom p {
+  color: #bdbdbd;
+  margin: 0px 0px 25px 0px;
+}
+.input__bottom span input {
+  width: 355px;
+  height: 28px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+  margin: 0px 2px 0px 0px;
+}
+.input__bottom span button {
+  background-color: #006ce4;
+  padding: 15px;
+  width: 131px;
+  height: 18px;
+  font-size: 18px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.info_block__bottom {
+  height: 85px;
+  text-align: center;
+  background-color: #003b95;
+  padding: 25px 0px 0px 0px;
+}
+.info_block__bottom .btn__for__reg {
+  text-align: center;
+  color: #fff;
+  padding: 5px 15px;
+  border: 1px #fff solid;
+  margin: 30px 0px 0px 0px;
+  width: 185px;
+  height: 26px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+.info_block__bottom .btn__for__reg:hover {
+  background-color: #3362aa;
+}
+.info_block__bottom div {
+  margin: 20px 0px 0px 0px;
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+}
+.info_block__bottom span ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.info_block__bottom span ul li {
+  padding: 15px;
+  border-right: 2px #003580 solid;
+}
+.info_block__bottom span ul li button {
+  color: #fff;
+  text-decoration: underline;
+}
+.info_block__bottom span ul li:hover {
+  cursor: pointer;
+  background-color: #003580;
+}
+
+.footer__constraint {
+  height: 482px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer__constraint .column__footer {
+  width: 208.4px;
+  padding: 0px 10px 0px 0px;
+}
+.footer__constraint ul {
+  margin: 20px 0px 0px 0px;
+}
+.footer__constraint ul li {
+  font-size: 13px;
+  margin: 0px 0px 10px 0px;
+  color: #006ce4;
+  cursor: pointer;
+}
+.footer__constraint ul li:hover {
+  color: #bc5b01;
+}
+
+.footer__ekstranet {
+  display: flex;
+  margin: 0px auto;
+  width: 1100px;
+  align-items: center;
+  flex-direction: column;
+}
+.footer__ekstranet a {
+  color: #000;
+  padding: 15px 0px;
+  margin: 0px 10px 20px 10px;
+  width: 130px;
+  height: 20px;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+.footer__copyright {
+  margin: 0px auto;
+  width: 1100px;
+}
+.footer__copyright span {
+  font-size: 12px;
+}
+
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px auto;
+  width: 1100px;
+}
+.footer__logo p {
+  font-size: 12px;
+  margin: 40px 0px 10px 0px;
+}
+.footer__logo span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.footer__logo span img {
+  padding: 0px 20px;
+  margin: 30px 0px;
+}
+
+.plan__trip h3 {
+  margin: 0px 0px 15px 0px;
+}
+.plan__trip p {
+  margin: 0px 0px 15px 0px;
+  color: #706f70;
+}
+.plan__trip .buttons__plan__trip ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px 20px 0px;
+}
+.plan__trip .buttons__plan__trip ul li {
+  margin: 0px 5px 0px 0px;
+}
+.plan__trip .buttons__plan__trip ul li a {
+  border-radius: 20px;
+  border: 1px #fff solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 13px 18px;
+}
+.plan__trip .buttons__plan__trip ul li a img {
+  width: 16px;
+  height: 16px;
+  margin: 0px 8px 0px 0px;
+}
+.plan__trip .buttons__plan__trip ul li a p {
+  color: #000;
+  font-size: 14px;
+  margin: 0px;
+}
+.plan__trip .buttons__plan__trip ul li a:hover {
+  background-color: #f2f2f2;
+}
+.plan__trip .buttons__plan__trip ul li a:focus {
+  background-color: #f0f6fd;
+  border: 1px #016de4 solid;
+}
+.plan__trip .buttons__plan__trip ul li a:focus p {
+  color: #016de4;
+}
+.plan__trip .cards__plan__trip ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px 40px 0px;
+}
+.plan__trip .cards__plan__trip ul li {
+  cursor: pointer;
+  height: 211px;
+  margin: 0px 16px 0px 0px;
+}
+.plan__trip .cards__plan__trip ul li img {
+  width: 170px;
+  height: 136px;
+  border-radius: 8px;
+  margin: 0px 0px 6px 0px;
+}
+.plan__trip .cards__plan__trip ul li h4 {
+  font-weight: bold;
+  margin: 0px 0px 6px 0px;
+}
+.plan__trip .cards__plan__trip ul li p {
+  font-size: 14px;
+}/*# sourceMappingURL=style.css.map */
